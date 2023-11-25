@@ -1,3 +1,4 @@
+```mermaid
 # Diagram-classDiagram
     class User {
         +String username
@@ -26,3 +27,4 @@
     }
     User "1" -- "*" Email : sends >
     User "1" -- "1" Mailbox : has >
+    ```mermaid
